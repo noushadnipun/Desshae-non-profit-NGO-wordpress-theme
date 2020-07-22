@@ -1,0 +1,74 @@
+/*!
+Theme Name: Deshaee - By Riptware
+Theme URI: https://riptware.com/
+Author: Noushad Nipun
+Author URI: https//rptware.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: deshaee-by-riptware
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+
+
+.footer-list {}
+.footer-list a {color: rgba(255, 255, 255, 0.7);}
+.footer-list ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#footer-credits {
+    padding: 27px 16px 25px;
+    color: #aaa;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.footer-credits-left {
+    float: left;
+}
+
+.footer-credits-right {
+    float: right;
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+.footer-credits-left, .footer-credits-right {
+    float: none;
+    text-align: center;
+}
+}
+
+
+
+
+@media (max-width: 992px) {
+.navbar-expand-lg .u-header__search {
+    position: absolute;
+    right: 0;
+    z-index: 102;
+    width: 23.125rem;
+    background-color: #fff;
+    border: 1px solid #e3e6f0;
+    box-shadow: 0 0 25px rgba(21, 27, 38, 0.1);
+    padding: 1rem;
+    border-radius: 0;
+    margin-top: 1.3125rem;
+    transition: none;
+}
+
+.navbar-expand-lg .u-header__search.u-unfold--css-animation.u-unfold--hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+}
+
+@media (max-width: 991px){
+.navbar-expand-lg .u-header__search-toggle {
+    display: block !important;
+}
+}
